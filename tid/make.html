@@ -15,8 +15,8 @@
 
     <script>
     
-      const F_MAKEHASH=true;  //隠しディレクトリ用ハッシュ生成
-      if(F_MAKEHASH){Document.write("生成用");}
+ 
+Document.write("生成用");
       function hash(text) {
         const sha = new jsSHA('SHA-256', 'TEXT');
         sha.update(text);
@@ -46,13 +46,10 @@
       form.addEventListener('submit', function (event) {
         const password = document.getElementById('password').value;
         
-        if(F_MAKEHASH){
+
           console.log(hash(password));
           debugger;
-        }else{
-          auth(password);
-          event.preventDefault();
-        }
+
         });
     </script>
     
