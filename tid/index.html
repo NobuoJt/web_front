@@ -14,8 +14,9 @@
     </form>
 
     <script>
+    
       const F_MAKEHASH=true;  //隠しディレクトリ用ハッシュ生成
-      
+      if(F_MAKEHASH){Document.write("生成用");}
       function hash(text) {
         const sha = new jsSHA('SHA-256', 'TEXT');
         sha.update(text);
