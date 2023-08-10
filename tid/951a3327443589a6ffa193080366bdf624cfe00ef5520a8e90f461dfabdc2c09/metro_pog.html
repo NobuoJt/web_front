@@ -1,0 +1,75 @@
+<html class=" myqrysaefb idc0_347">
+<head>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script src="https://unpkg.com/react@15/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/3.6.0/redux.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-redux/5.0.2/react-redux.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.19.0/babel.min.js"></script>
+    
+
+<link rel="stylesheet" href="style.css">
+    <script type="text/babel">
+		function showTable(resObjs){//表のレンダリング
+			const israre=(ep)=>{return (["回送","試運転","臨時"].some(e=>e==ep)?"rare":"non")}//回送試運転判定
+
+		    var tableDOM =<div>
+					{Object.values(table_data).map((e1,i1)=>(//路線別
+					<table>
+					    <colgroup>
+
+								{Object.values(e1[0][0]).map((e4,i4)=>(//列車情報別
+									<col key={i4} id={"c"+i4} width={e1[0][0].length+"/"} />   
+					            ))}  
+					    </colgroup>
+			            <thead>
+			                <tr>
+			                   
+								{Object.values(e1[0][0]).map((e4,i4)=>(//列車情報別
+									<th key={i4}>{i4}</th>      
+					            ))}    
+			                </tr>
+			            </thead>
+						<tbody>
+		            {Object.values(e1).map((e2,i2)=>(//セクション別
+						Object.values(e2).map((e3,i3)=>(//列車別
+		                    <tr key={i3}>
+								{Object.values(e3).map((e4,i4)=>(//列車情報別
+			                    
+							        <td key={i4} id={e3.length==2*i4?"st":null} id={israre(e4)}>{e4}</td>
+			                     
+					            ))}    
+		                     </tr>
+			            ))        
+					))}
+		               </tbody>
+		            </table>
+				))}
+			</div>
+			
+			var target = document.getElementById('tablePane');	//ターゲット指定
+		    ReactDOM.render(tableDOM, target);					//DOM描画
+		}
+    </script>	
+	<script type="text/babel">
+	async function getAction(){
+		let resObjs=await fetchTrainData()
+		console.log(resObjs)
+		makeTable(resObjs).then(showTable(resObjs));
+		
+	}
+</script>	
+	<title>メトロ在線情報詳細</title>   
+</head>
+
+<script src="script.js"></script>
+<body onload="getAction()">
+	
+<button onclick="getAction()">取得</button>
+<a href="https://tmap-wtid.tokyometro.jp/tid/v1/assets/config/line-config.json">種別情報</a>
+	
+<div id="infoPane"></div>
+<div id="tablePane"></div>
+</body></html>

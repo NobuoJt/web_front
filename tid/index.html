@@ -23,7 +23,7 @@
         return sha.getHash('HEX');
       }
       function auth(password) {
-        const url = hash(password);
+        const url = hash(password)+"/index.html";
         const xhr = new XMLHttpRequest();
         xhr.open('GET', url);
         xhr.send();
