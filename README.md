@@ -15,3 +15,4 @@ twitter: @E231_tuiraku
 
 [TID](https://nobuojt.github.io/web_front/TID)
 [JRW時刻表](https://nobuojt.github.io/web_front/timetableRef_JRwest.html)
+[貨物](https://nobuojt.github.io/web_front/貨物時刻表2024.htm)
