@@ -1,0 +1,352 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=shift_jis">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 15">
+<link id=Main-File rel=Main-File href="../貨物時刻表2024.htm">
+<link rel=File-List href=filelist.xml>
+<link rel=Stylesheet href=stylesheet.css>
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:.75in .7in .75in .7in;
+	mso-header-margin:.3in;
+	mso-footer-margin:.3in;}
+-->
+</style>
+<![if !supportTabStrip]><script language="JavaScript">
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=4) {
+   if (parent.document.readyState=="complete"
+    && parent.frames['frTabs'].document.readyState=="complete")
+   parent.fnSetActiveSheet(4);
+  else
+   window.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!="frSheet")
+ window.location.replace("../貨物時刻表2024.htm");
+else
+ fnUpdateTabs();
+//-->
+</script>
+<![endif]>
+</head>
+
+<body link="#467886" vlink="#96607D">
+
+<table border=0 cellpadding=0 cellspacing=2 width=496 
+>
+ <col width=22 style='mso-width-source:userset;mso-width-alt:704;width:17pt'>
+ <col class=xl98 width=54 style='mso-width-source:userset;mso-width-alt:1728;
+ width:41pt'>
+ <col width=78 style='mso-width-source:userset;mso-width-alt:2496;width:59pt'>
+ <col width=72 span=4 style='width:54pt'>
+ <col class=xl98 width=54 style='mso-width-source:userset;mso-width-alt:1728;
+ width:41pt'>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl85 width=22 style='height:13.5pt;width:17pt'></td>
+  <td class=xl96 width=54 style='width:41pt'></td>
+  <td class=xl85 width=78 style='width:59pt'></td>
+  <td class=xl85 width=72 style='width:54pt'></td>
+  <td class=xl85 width=72 style='width:54pt'></td>
+  <td class=xl85 width=72 style='width:54pt'></td>
+  <td class=xl85 width=72 style='width:54pt'></td>
+  <td class=xl96 width=54 style='width:41pt'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl85 style='height:13.5pt'></td>
+  <td class=xl96></td>
+  <td class=xl85></td>
+  <td class=xl85></td>
+  <td class=xl85></td>
+  <td class=xl85></td>
+  <td class=xl85></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=18 style='height:13.5pt;position:sticky;top:0;background:#fff'>
+  <td height=18 class=xl85 style='height:13.5pt;position:sticky;top:0;background:#fff'></td>
+  <td class=xl96></td>
+  <td class=xl85></td>
+  <td class=xl85>高崎操</td>
+  <td class=xl85>倉賀野</td>
+  <td class=xl85>岡部</td>
+  <td class=xl85>熊谷タ</td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl85 style='height:13.5pt'></td>
+  <td class=xl96></td>
+  <td class=xl85></td>
+  <td class=xl85></td>
+  <td class=xl85></td>
+  <td class=xl85></td>
+  <td class=xl85></td>
+  <td class=xl96></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl85 style='height:13.5pt'>下</td>
+  <td class=xl96>単5761</td>
+  <td class=xl85 style='font-size:11.0pt;color:#156082;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:"Aptos Narrow", sans-serif;mso-font-charset:128'>高200-230</td>
+  <td class=xl86>6:10</td>
+  <td class=xl86>6:06</td>
+  <td class=xl87>&nbsp;</td>
+  <td class=xl87>&nbsp;</td>
+  <td class=xl96>単5761</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl85 style='height:13.5pt'>上</td>
+  <td class=xl96>単8760</td>
+  <td class=xl85 style='font-size:11.0pt;color:#156082;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:"Aptos Narrow", sans-serif;mso-font-charset:128'>高200-207</td>
+  <td class=xl88>6:11</td>
+  <td class=xl88>6:15</td>
+  <td class=xl89>&nbsp;</td>
+  <td class=xl89>&nbsp;</td>
+  <td class=xl96>単8760</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl85 style='height:13.5pt'>下</td>
+  <td class=xl96>単3097</td>
+  <td class=xl85 style='font-size:11.0pt;color:red;font-weight:400;text-decoration:
+  none;text-underline-style:none;text-line-through:none;font-family:"Aptos Narrow", sans-serif;
+  mso-font-charset:128'>新65-67</td>
+  <td class=xl86>7:11</td>
+  <td class=xl86>7:08</td>
+  <td class=xl87>&nbsp;</td>
+  <td class=xl87>&nbsp;</td>
+  <td class=xl96>単3097</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl85 style='height:13.5pt'>下</td>
+  <td class=xl96>単8877</td>
+  <td class=xl85 style='font-size:11.0pt;color:red;font-weight:400;text-decoration:
+  none;text-underline-style:none;text-line-through:none;font-family:"Aptos Narrow", sans-serif;
+  mso-font-charset:128'>新65-53</td>
+  <td class=xl86>9:30</td>
+  <td class=xl86>9:26</td>
+  <td class=xl87>&nbsp;</td>
+  <td class=xl87>&nbsp;</td>
+  <td class=xl96>単8877</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl85 style='height:13.5pt'>上</td>
+  <td class=xl96>単6794</td>
+  <td class=xl85 style='font-size:11.0pt;color:#156082;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:"Aptos Narrow", sans-serif;mso-font-charset:128'>高200-203</td>
+  <td class=xl88>9:47</td>
+  <td class=xl88>9:50</td>
+  <td class=xl89>10:11-25</td>
+  <td class=xl88>10:39</td>
+  <td class=xl96>単6794</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl85 style='height:13.5pt'>上</td>
+  <td class=xl96>単4074</td>
+  <td class=xl85 style='font-size:11.0pt;color:#156082;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:"Aptos Narrow", sans-serif;mso-font-charset:128'>高200-223</td>
+  <td class=xl88>10:05</td>
+  <td class=xl88>10:09</td>
+  <td class=xl89>&nbsp;</td>
+  <td class=xl89>&nbsp;</td>
+  <td class=xl96>単4074</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl85 style='height:13.5pt'>下</td>
+  <td class=xl96>単4067</td>
+  <td class=xl85 style='font-size:11.0pt;color:#00B0F0;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:"Aptos Narrow", sans-serif;mso-font-charset:128'>新210-210</td>
+  <td class=xl86>11:10</td>
+  <td class=xl86>11:06</td>
+  <td class=xl87>&nbsp;</td>
+  <td class=xl87>&nbsp;</td>
+  <td class=xl96>単4067</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl85 style='height:13.5pt'>下</td>
+  <td class=xl96>単3093</td>
+  <td class=xl85 style='font-size:11.0pt;color:#00B0F0;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:"Aptos Narrow", sans-serif;mso-font-charset:128'>新210-229</td>
+  <td class=xl86>13:43</td>
+  <td class=xl86>13:39</td>
+  <td class=xl87>&nbsp;</td>
+  <td class=xl87>&nbsp;</td>
+  <td class=xl96>単3093</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl85 style='height:13.5pt'>上</td>
+  <td class=xl96>単8876</td>
+  <td class=xl85 style='font-size:11.0pt;color:red;font-weight:400;text-decoration:
+  none;text-underline-style:none;text-line-through:none;font-family:"Aptos Narrow", sans-serif;
+  mso-font-charset:128'>新65-68</td>
+  <td class=xl88>14:10</td>
+  <td class=xl88>14:14</td>
+  <td class=xl89>&nbsp;</td>
+  <td class=xl89>&nbsp;</td>
+  <td class=xl96>単8876</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl85 style='height:13.5pt'>上</td>
+  <td class=xl96>単3096</td>
+  <td class=xl85 style='font-size:11.0pt;color:#00B0F0;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:"Aptos Narrow", sans-serif;mso-font-charset:128'>新210-211</td>
+  <td class=xl88>15:06</td>
+  <td class=xl88>15:09</td>
+  <td class=xl89>&nbsp;</td>
+  <td class=xl89>&nbsp;</td>
+  <td class=xl96>単3096</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl85 style='height:13.5pt'>下</td>
+  <td class=xl96>単6795</td>
+  <td class=xl85 style='font-size:11.0pt;color:#00B0F0;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:"Aptos Narrow", sans-serif;mso-font-charset:128'>新210-220</td>
+  <td class=xl86>15:21</td>
+  <td class=xl86>15:18</td>
+  <td class=xl86>14:59</td>
+  <td class=xl86>14:46</td>
+  <td class=xl96>単6795</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl85 style='height:13.5pt'>上</td>
+  <td class=xl96>単3092</td>
+  <td class=xl85 style='font-size:11.0pt;color:red;font-weight:400;text-decoration:
+  none;text-underline-style:none;text-line-through:none;font-family:"Aptos Narrow", sans-serif;
+  mso-font-charset:128'>新65-54</td>
+  <td class=xl88>16:08</td>
+  <td class=xl88>16:12</td>
+  <td class=xl89>&nbsp;</td>
+  <td class=xl89>&nbsp;</td>
+  <td class=xl96>単3092</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl85 style='height:13.5pt'>上</td>
+  <td class=xl96>単3098</td>
+  <td class=xl85 style='font-size:11.0pt;color:#00B0F0;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:"Aptos Narrow", sans-serif;mso-font-charset:128'>新210-230</td>
+  <td class=xl88>18:12</td>
+  <td class=xl88>16:16</td>
+  <td class=xl89>&nbsp;</td>
+  <td class=xl89>&nbsp;</td>
+  <td class=xl96>単3098</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl85 style='height:13.5pt'>下</td>
+  <td class=xl96>単8883</td>
+  <td class=xl85 style='font-size:11.0pt;color:#00B0F0;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:"Aptos Narrow", sans-serif;mso-font-charset:128'>新210-233</td>
+  <td class=xl86>17:23</td>
+  <td class=xl86>17:19</td>
+  <td class=xl87>&nbsp;</td>
+  <td class=xl87>&nbsp;</td>
+  <td class=xl96>単8883</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl85 style='height:13.5pt'>上</td>
+  <td class=xl96>単4066</td>
+  <td class=xl85 style='font-size:11.0pt;color:#00B0F0;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:"Aptos Narrow", sans-serif;mso-font-charset:128'>新210-223</td>
+  <td class=xl88>18:39</td>
+  <td class=xl88>18:43</td>
+  <td class=xl89>&nbsp;</td>
+  <td class=xl89>&nbsp;</td>
+  <td class=xl96>単4066</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl85 style='height:13.5pt'>下</td>
+  <td class=xl96>単8763</td>
+  <td class=xl85 style='font-size:11.0pt;color:#156082;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:"Aptos Narrow", sans-serif;mso-font-charset:128'>高200-207</td>
+  <td class=xl86>20:33</td>
+  <td class=xl86>20:30</td>
+  <td class=xl87>&nbsp;</td>
+  <td class=xl87>&nbsp;</td>
+  <td class=xl96>単8763</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl85 style='height:13.5pt'>上</td>
+  <td class=xl96>単8884</td>
+  <td class=xl85 style='font-size:11.0pt;color:#00B0F0;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:"Aptos Narrow", sans-serif;mso-font-charset:128'>新210-234</td>
+  <td class=xl88>20:35</td>
+  <td class=xl88>20:38</td>
+  <td class=xl89>&nbsp;</td>
+  <td class=xl89>&nbsp;</td>
+  <td class=xl96>単8884</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl85 style='height:13.5pt'>下</td>
+  <td class=xl96>単3091</td>
+  <td class=xl85 style='font-size:11.0pt;color:#156082;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:"Aptos Narrow", sans-serif;mso-font-charset:128'>高200-206</td>
+  <td class=xl86>21:58</td>
+  <td class=xl86>21:55</td>
+  <td class=xl87>&nbsp;</td>
+  <td class=xl87>&nbsp;</td>
+  <td class=xl96>単3091</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl85 style='height:13.5pt'>下</td>
+  <td class=xl96>単8777</td>
+  <td class=xl85 style='font-size:11.0pt;color:#156082;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:"Aptos Narrow", sans-serif;mso-font-charset:128'>高200-210</td>
+  <td class=xl86>22:15</td>
+  <td class=xl86>22:12</td>
+  <td class=xl87>&nbsp;</td>
+  <td class=xl87>&nbsp;</td>
+  <td class=xl96>単8777</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl85 style='height:13.5pt'>上</td>
+  <td class=xl96>単8762</td>
+  <td class=xl85 style='font-size:11.0pt;color:#156082;font-weight:400;
+  text-decoration:none;text-underline-style:none;text-line-through:none;
+  font-family:"Aptos Narrow", sans-serif;mso-font-charset:128'>高200-208</td>
+  <td class=xl88>22:23</td>
+  <td class=xl88>22:27</td>
+  <td class=xl89>&nbsp;</td>
+  <td class=xl89>&nbsp;</td>
+  <td class=xl96>単8762</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=22 style='width:17pt'></td>
+  <td width=54 style='width:41pt'></td>
+  <td width=78 style='width:59pt'></td>
+  <td width=72 style='width:54pt'></td>
+  <td width=72 style='width:54pt'></td>
+  <td width=72 style='width:54pt'></td>
+  <td width=72 style='width:54pt'></td>
+  <td width=54 style='width:41pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>
