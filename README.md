@@ -26,4 +26,4 @@ twitter: @E231_tuiraku
 [ランダム入替え文字](https://nobuojt.github.io/web_front/string系/random_str_line.html?str=ｾｲｱｯ!)
 [繰り返し文字](https://nobuojt.github.io/web_front/string系/str_repeat.html?str=ｾｲｱｯ!)
 
-[現実時間→つべタイムラインノート](https://nobuojt.github.io/web_front/gpx_readwrite/index.html)
+[現実時間→つべタイムラインノート](https://nobuojt.github.io/web_front/BF4.html)
