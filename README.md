@@ -14,7 +14,16 @@ nobuoJTのwebリソースを自宅サーバーから隔離するためのrepo．
 twitter: @E231_tuiraku  
 
 [TID](https://nobuojt.github.io/web_front/TID/index.html)
+[TID-raw](https://nobuojt.github.io/web_front/getMetroTIDraw.html)
+
 [JRW時刻表](https://nobuojt.github.io/web_front/timetableRef_JRwest.html)
 [貨物](https://nobuojt.github.io/web_front/jrf_timetable2024.htm)
-[TID-raw](https://nobuojt.github.io/web_front/getMetroTIDraw.html)
+
 [GPX VIEW](https://nobuojt.github.io/web_front/gpx_readwrite/index.html)
+
+[ランダム牌](https://nobuojt.github.io/web_front/string系/random_maj.html)
+[ランダム文字](https://nobuojt.github.io/web_front/string系/random_str.html?str=ｾｲｱｯ!)
+[ランダム入替え文字](https://nobuojt.github.io/web_front/string系/random_str_line.html?str=ｾｲｱｯ!)
+[繰り返し文字](https://nobuojt.github.io/web_front/string系/str_repeat.html?str=ｾｲｱｯ!)
+
+[現実時間→つべタイムラインノート](https://nobuojt.github.io/web_front/gpx_readwrite/index.html)
