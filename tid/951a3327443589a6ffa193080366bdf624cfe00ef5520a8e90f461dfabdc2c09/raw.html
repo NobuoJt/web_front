@@ -1,0 +1,55 @@
+<html><head><meta charset="utf-8"><title>メトロ在線情報詳細</title></head>
+<body>
+<select id="SelLine" name="SelLine">
+	<script>
+	let lineId=["03","04","02","05","09","08","0A","0B","07"];
+	let lines=["銀","丸","日","東","千","有","副","半","南"];
+	for (let i = 0 ; i < lineId.length ; i++){
+		document.write('<option value="'+lineId[i]+'">'+lines[i]+'</option>')
+	}
+	function fetchTrainData(id){
+	fetch('https://tmap-sid.tokyometro.jp/i/pos/trainpos/v1.2?line_code='+id+'&dia=0', {
+   		method: "GET",
+    	headers:{
+    		Authorization:"Bearer 6C9F5526E3FA82989C47EE25196D5ACC771DF4A4C0D439C4A81DA171294834F9"
+    	}
+  	})
+  	.then(response => {
+   	 if (response.ok) {
+   	   return response.json();
+   	 }
+   	 // 404 や 500 ステータスならここに到達する
+    	throw new Error('Network response was not ok.');
+ 	 })
+ 	 .then(resJson => {
+	    document.getElementById('infoPane').innerHTML=(JSON.stringify(resJson));
+	  })
+	  .catch(error => {
+	    // ネットワークエラーの場合はここに到達する
+	    console.error(error);
+	  })
+	}
+	</script>
+</select>
+<button onclick='getAction()'>取得</button>
+<a href='https://tmap-wtid.tokyometro.jp/tid/v1/assets/config/line-config.json'>種別情報</a>
+     <a class="link" href="<?= url ?>/new10">走行中10</a>
+     <a class="link" href="<?= url ?>/all10">最新10</a>
+     <a class="link" href="<?= url ?>/all50">最新50</a>
+     <a class="link" href="<?= url ?>/viewraw">元データ</a>
+     <a class="link" href="<?= url ?>/metro_view">在線</a>
+<script>
+function getAction(){
+	const l2ll = [];
+     SelLine = document.getElementById("SelLine");
+    for (let i = 0; i < SelLine.length; i++) {
+      if (SelLine[i].selected) {
+        l2ll.push(SelLine[i].value);
+      }
+    }
+fetchTrainData(l2ll);
+}
+</script>
+<div id='infoPane'></div>
+</body>
+</html>
