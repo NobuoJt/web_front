@@ -17,4 +17,4 @@ twitter: @E231_tuiraku
 [JRW時刻表](https://nobuojt.github.io/web_front/timetableRef_JRwest.html)
 [貨物](https://nobuojt.github.io/web_front/jrf_timetable2024.htm)
 [TID-raw](https://nobuojt.github.io/web_front/getMetroTIDraw.html)
-
+[GPX VIEW](https://nobuojt.github.io/web_front/gpx_readwrite/index.html)
