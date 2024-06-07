@@ -13,7 +13,7 @@ nobuoJTのwebリソースを自宅サーバーから隔離するためのrepo．
 一応連絡はDMで(センシティブなものは鍵で来ていただきたい．)  
 twitter: @E231_tuiraku  
 
-[TID](https://nobuojt.github.io/web_front/TID)
+[TID](https://nobuojt.github.io/web_front/TID/index.html)
 [JRW時刻表](https://nobuojt.github.io/web_front/timetableRef_JRwest.html)
 [貨物](https://nobuojt.github.io/web_front/jrf_timetable2024.htm)
 [TID-raw](https://nobuojt.github.io/web_front/getMetroTIDraw.html)
