@@ -19,7 +19,7 @@ twitter: @E231_tuiraku
 [JRW時刻表](https://nobuojt.github.io/web_front/timetableRef_JRwest.html)
 [貨物](https://nobuojt.github.io/web_front/jrf_timetable2024.htm)
 
-[GPX VIEW](https://nobuojt.github.io/web_front/gpx_readwrite/index.html)
+[gpxVIEW](https://nobuojt.github.io/web_front/gpx_readwrite/index.html)
 
 [ランダム牌](https://nobuojt.github.io/web_front/string系/random_maj.html)
 [ランダム文字](https://nobuojt.github.io/web_front/string系/random_str.html?str=ｾｲｱｯ!)
