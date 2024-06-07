@@ -1,0 +1,67 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<style type="text/css">
+	div#big{display: flow;position: sticky;top: 0;}
+	div#big>button {width: 20%;height:10%;font-size: 5vmin;float: left;}
+	div#small{display: flow;position: sticky;top: 0;}
+	div#small>* {width: 14.2857142857%;height:5%;font-size: 2.5vmin;float: left;}
+	textarea{width:100%;height:85%}
+</style>
+</>
+
+<body>
+
+<script>
+	function stamp(disc){				//タイムスタンプ追加
+		str_b=document.getElementById("txt").value.split(/\n/)//読み込み
+		str_a=do1(str_b,disc)
+		document.getElementById("txt").value=str_a//書き込み
+	}
+	let do1=(s_log_in,disc)=>{			//タイムスタンプ追加内部処理(各行逐次)
+		let a_log=new Array()
+		let s_log
+		s_log_in.forEach((e_log,i)=>{
+			a_log.push(e_log)
+		})
+		a_log.push(new Date().toLocaleString()+" "+(disc??"")+" ")
+		s_log=a_log.join('\n')
+		return s_log
+	}
+	function jst2videoTime(){			//現実時間から動画開始時間を引くことで動画内の時間に
+		s_jst_raw=document.getElementById("txt").value.split(/\n/)//ログ読み込み
+		a_jst=new Array()
+		ref_time=new Date(document.getElementById("starttime").value)//開始時刻読み込み
+		
+		s_jst_raw.forEach((e)=>{
+			
+			s=new Date((e.match(/....\/.+\/.+:.+:../g)??[])[0])//各行の時間表記取得
+			secDiff=new Date((s-ref_time)?s-ref_time:0).toLocaleTimeString("en-gb", { timeZone: "UTC"})
+														//時間差をhh:mm:ss(+0)で表記
+			a_jst.push(e.replace(/....\/.+\/.+:.+:../g,secDiff))	//置換
+			
+		})
+		s_log=a_jst.join('\n')								//array2str
+		document.getElementById("txt").value=s_log			//ログ書き込み
+	}
+</script>
+<div id="big">
+	<button  onclick='stamp()' >null</button>
+	<button onclick='stamp("✕")' >✕</button>
+	<button onclick='stamp("△")' >△</button>
+	<button onclick='stamp("◯")' >◯</button>
+	<button onclick='stamp("GG")' >GG</button>
+</div>
+<div id="small">
+	<button  onclick='stamp("兵器")' >搭乗</button>
+	<button onclick='stamp("突")' >突撃兵</button>
+	<button onclick='stamp("工")' >工兵</button>
+	<button onclick='stamp("援")' >援護兵</button>
+	<button onclick='stamp("偵")' >偵察兵</button>
+	<button onclick='jst2videoTime()' >変換</button>
+	<input id=starttime placeholder="動画開始時間"></>
+</div>
+<textarea  id=txt placeholder="ログ"></textarea><br>
+
+
+</body></>

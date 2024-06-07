@@ -1,0 +1,43 @@
+<html>
+    <head><meta charset="utf-8"></head>
+<body style="margin:0 ;padding: 0;">
+    <div id="V" style="font-size: 10vmin; text-align: center;margin:0 ;padding: 0;line-height:1.2;position: flex;left: 50%;bottom: 50%;"></div>
+
+    <script>
+let f=(v)=>{
+let s=''
+let vv=v.length
+for(let i=0;i<vv;i++){
+let t=Math.round(Math.random()*(vv-1-i))
+s+=v[t]
+v=v.slice(0,t)+v.slice(t+1,v.length)
+console.log(v)
+}
+return s
+}
+    
+        function getUrlQueries() {
+            var queryStr = window.location.search.slice(1),  // 文頭?を除外
+                queries = {};
+                
+            // クエリがない場合は空のオブジェクトを返す
+            if (!queryStr) {
+                return queries;
+            }
+            
+            // クエリ文字列を & で分割して処理
+            queryStr.split('&').forEach(function(queryStr) {
+                // = で分割してkey,valueをオブジェクトに格納
+                var queryArr = queryStr.split('=');
+                queries[queryArr[0]] = queryArr[1];
+            });
+            
+            return queries;
+        }
+        let rep_str="百合園セイア"
+        if(getUrlQueries().str){rep_str=decodeURI(getUrlQueries().str)}
+        
+        document.getElementById("V").innerHTML=f(rep_str)
+    </script>
+
+</body></html>
