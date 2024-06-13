@@ -1,3 +1,5 @@
+//ruquire OAuth module
+//needs BEARER_TOKEN   serviceName accessTokenUrl requestTokenUrl authorizationUrl consumerKey consumerSecret
 function getElonsLikes() {
   const url = "https://api.twitter.com/2/users/44196397/liked_tweets";
  const options = {
@@ -6,7 +8,7 @@ function getElonsLikes() {
     'muteHttpExceptions' : true
   };
   const r=makeRequest(url, options);
-  ret
+  return
 }
 
 function makeRequest(url, options) {
