@@ -5,9 +5,24 @@
 
     <script>
     let f=(v)=>{
-	let s=''
-	for(let i=0;i<14;i++){s+=v[Math.round(Math.random()*(v.length-1))]}
-	return s
+	let s=""
+	let a=[]
+	let cur=""
+	let man=[]
+	let sou=[]
+	let pin=[]
+	let ji=[]
+	for(let i=0;i<14;i++){
+		cur=(v[Math.round(Math.random()*(v.length-1))])
+		if(["一","二","三","四","五","六","七","八","九"].some((e)=>e==cur)){man.push(cur)}
+		if(["①","②","③","④","⑤","⑥","⑦","⑧","⑨"].some((e)=>e==cur)){pin.push(cur)}
+		if(["１","２","３","４","５","６","７","８","９"].some((e)=>e==cur)){sou.push(cur)}
+		if(["東","西","南","北","白","發","中"].some((e)=>e==cur)){ji.push(cur)}
+		
+	}
+		a.push(man.sort(),sou.sort(),pin.sort(),ji.sort())
+		
+		return a.join().replaceAll(",","")
 	}
     
         function getUrlQueries() {
