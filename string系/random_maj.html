@@ -12,6 +12,7 @@
 	let sou=[]
 	let pin=[]
 	let ji=[]
+	let b=""
 	for(let i=0;i<14;i++){
 		cur=(v[Math.round(Math.random()*(v.length-1))])
 		if(["一","二","三","四","五","六","七","八","九"].some((e)=>e==cur)){man.push(cur)}
@@ -21,8 +22,17 @@
 		
 	}
 		a.push(man.sort(new Intl.Collator("ja").compare),sou.sort(new Intl.Collator("ja").compare),pin.sort(new Intl.Collator("ja").compare),ji.sort(new Intl.Collator("ja").compare))
-		debugger
-		return a.join().replaceAll(",","")
+		
+		rep_str.split("").forEach((e)=>{
+		a.join().replaceAll(",","").split("").forEach((ee)=>{if(e==ee){
+			b+=e}
+			})
+
+		})
+		
+		
+		
+		return b
 	}
     
         function getUrlQueries() {
