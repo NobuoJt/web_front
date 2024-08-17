@@ -20,8 +20,8 @@
 		if(["東","西","南","北","白","發","中"].some((e)=>e==cur)){ji.push(cur)}
 		
 	}
-		a.push(man.sort(),sou.sort(),pin.sort(),ji.sort())
-		
+		a.push(man.sort(new Intl.Collator("ja").compare),sou.sort(new Intl.Collator("ja").compare),pin.sort(new Intl.Collator("ja").compare),ji.sort(new Intl.Collator("ja").compare))
+		debugger
 		return a.join().replaceAll(",","")
 	}
     
