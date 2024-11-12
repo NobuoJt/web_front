@@ -27,3 +27,5 @@ twitter: @E231_tuiraku
 [繰り返し文字](https://nobuojt.github.io/web_front/string系/str_repeat.html?str=ｾｲｱｯ!)
 
 [現実時間→つべタイムラインノート](https://nobuojt.github.io/web_front/BF4.html)
+
+[閲覧注意(5032Mの14号車)](https://nobuojt.github.io/web_front/in_car_number_14_at_5032M.html)
