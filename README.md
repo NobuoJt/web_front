@@ -6,18 +6,18 @@ nobuoJTのwebリソースを自宅サーバーから隔離するためのrepo．
 正直，作った時期や環境もばらばらで全く使いこなせていないのでバグ取りは期待できない．  
 
 一応書けるもの(自信ある順)  
-  -  GAS / JS / React / C++ / Java / R   
+  - GAS / JS / TS / Python / React / C++ / Java / R   
 
 他事業者や団体などは一切関係ない．  
 
 一応連絡はDMで(センシティブなものは鍵で来ていただきたい．)  
 twitter: @E231_tuiraku  
 
-[TID](https://nobuojt.github.io/web_front/TID/index.html)
+[TID](https://nobuojt.github.io/web_front/tid/index.html)
 [TID-raw](https://nobuojt.github.io/web_front/getMetroTIDraw.html)
 
 [JRW時刻表](https://nobuojt.github.io/web_front/timetableRef_JRwest.html)
-[貨物](https://nobuojt.github.io/web_front/jrf_timetable2024.htm)
+[貨物2024](https://nobuojt.github.io/web_front/jrf_timetable2024.htm)
 
 [gpxVIEW](https://nobuojt.github.io/web_front/gpx_readwrite/index.html)
 
